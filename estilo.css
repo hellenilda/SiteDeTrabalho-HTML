@@ -23,17 +23,17 @@ ul li a {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: rgb(201, 215, 253);
     padding: 10px;
     transition: 0.5s ease;
 }
 
 ul:hover li a {
-    color: #7474ff;
+    color: #ee00ff;
 }
 
 ul:hover li a:not(:hover) {
-    color: white;
+    color: #ee00ff;
     opacity: 0.3;
     filter: blur(0.9px);
 }
