@@ -23,7 +23,7 @@ ul li a {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(201, 215, 253);
+    color: #c9d7fd;
     padding: 10px;
     transition: 0.5s ease;
 }
@@ -36,4 +36,16 @@ ul:hover li a:not(:hover) {
     color: #ee00ff;
     opacity: 0.3;
     filter: blur(0.9px);
+}
+
+#planoDiario,#planoMensal,#planoAnual {
+    font-size: 23px;
+    font-family: "Chivo Mono", monospace;
+    width: 400px;
+    height: 380px;
+    margin: 3px;
+    display: grid;
+    place-items: center;
+    background-color: #c9d7fd;
+    border-radius: 12px;
 }
